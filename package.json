@@ -1,0 +1,14 @@
+{
+  "name": "finance-mcp-vercel",
+  "version": "1.0.0",
+  "description": "Finance MCP Server deployed on Vercel",
+  "scripts": {
+    "deploy": "vercel",
+    "deploy:prod": "vercel --prod",
+    "logs": "vercel logs",
+    "env": "vercel env pull"
+  },
+  "keywords": ["mcp", "finance", "vercel", "serverless"],
+  "author": "Armoriq",
+  "license": "MIT"
+}
