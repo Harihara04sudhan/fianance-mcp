@@ -15,9 +15,5 @@
       "src": "/(.*)",
       "dest": "api/index.py"
     }
-  ],
-  "env": {
-    "DATABASE_URL_PRIVATE": "@database_url_private",
-    "DATABASE_URL_PUBLIC": "@database_url_public"
-  }
+  ]
 }
